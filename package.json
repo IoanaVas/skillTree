@@ -4,10 +4,14 @@
   "description": "Demo JS  skills",
   "main": "index.js",
   "dependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.1",
     "express": "^4.17.1"
   },
   "devDependencies": {},
   "scripts": {
+    "start": "babel-node server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
