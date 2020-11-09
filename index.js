@@ -1,6 +1,5 @@
-if(!Array.prototype.mapper) {
-  console.log('Used mapper for showing purposes')
-  Array.prototype.mapper = function(fn) {
+if(!Array.prototype.map) {
+  Array.prototype.map = function(fn) {
     let newArr = [];
     this.forEach(function (item) {
       newArr.push(fn(item))
@@ -13,7 +12,7 @@ if(!Array.prototype.mapper) {
 const retrieveCuteDogs = function() {
   const dogs = ['poodle', 'retriver', 'shepard']
   
-  return dogs.mapper(function(dog) {
+  return dogs.map(function(dog) {
     return `cute ${dog}`
   })
 }
