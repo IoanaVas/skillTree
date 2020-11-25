@@ -2,9 +2,12 @@
 
 Demo JS skills
 
-## Polifills
+## Polyfills
 
 On `polifill` branch
+
+There are older browsers which do not support `map` method.
+In `index.js` there is a polyfill providing `map` functionality.
 
 ## Transpiller
 
@@ -17,6 +20,7 @@ On `babel-transpiller` branch, installing some babel packages and configuring th
 On `concurrency` branch it is shown how two processes are running together, but not at the same time, in one thread with the help of the event loop.
 
 ## Web Workers and Threads
-Concurrency of multiple threads can be shown, in JS, with the help of Web Workers. 
+
+Concurrency of multiple threads can be shown, in JS, with the help of Web Workers.
 Web Worker enable creating new threads in JS, which is a single-threaded programming language.
 On `threads` branch we will see how one process can have multiple threads in JS, resulting concurrency between threads.
