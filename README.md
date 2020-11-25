@@ -14,7 +14,7 @@ On `babel-transpiller` branch, installing some babel packages and configuring th
 
 ## Concurrency
 
-On `concurrency` branch it is shown how two processes are running together, but not at the same time, in one thread with the help of the evnt loop.
+On `concurrency` branch it is shown how two processes are running together, but not at the same time, in one thread with the help of the event loop.
 
 ## Web Workers and Threads
 Concurrency of multiple threads can be shown, in JS, with the help of Web Workers. 
